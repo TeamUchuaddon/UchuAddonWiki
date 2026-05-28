@@ -1,7 +1,7 @@
 {
   "_comment": "新しいバージョンは配列の先頭に追加。type: release/beta/hotfix/dev  使えるキー: new/change/fix/remove/caution  各項目は文字列または {ja, en} オブジェクトで記述。不要なキーは省略可",
   "versions": [
-      {
+    {
       "version": "1.1.1",
       "date": "2026-05-28",
       "type": "release",
