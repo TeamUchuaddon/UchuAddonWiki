@@ -2,6 +2,17 @@
   "_comment": "新しいバージョンは配列の先頭に追加。type: release/beta/hotfix/dev  使えるキー: new/change/fix/remove/caution  各項目は文字列または {ja, en} オブジェクトで記述。不要なキーは省略可",
   "versions": [
     {
+      "version": "1.1.2",
+      "date": "2026-05-29",
+      "type": "hotfix",
+      "fix": [
+        {
+          "ja": "一部の役職でスナッチャーに能力を取られてもボタンが壊れない問題を修正しました。",
+          "en": "Fixed an issue where the ability button would not break for certain roles even after their ability was stolen by Snatcher."
+        }
+      ]
+    },
+    {
       "version": "1.1.1",
       "date": "2026-05-28",
       "type": "release",
