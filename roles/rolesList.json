@@ -99,8 +99,7 @@
         ],
         "perk": [],
         "secret": [
-            "Comment1.json",
-            "Comment2.json"
+            "Comment1.json"
         ]
     }
 }
