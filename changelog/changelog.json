@@ -2,6 +2,20 @@
   "_comment": "新しいバージョンは配列の先頭に追加。type: release/beta/hotfix/dev  使えるキー: new/change/fix/remove/caution  各項目は文字列または {ja, en} オブジェクトで記述。不要なキーは省略可",
   "versions": [
     {
+      "version": "1.1.3",
+      "date": "2026-06-02",
+      "type": "release",
+       "new": [
+        {
+          "ja": "メインメニューに各種リンクを追加しました。",
+          "en": "Added various links to the main menu."
+        },
+        {
+          "ja": "# Discordサーバー開設！<br>メインメニューにYoutube Twitter Wiki Discordの4つのリンクを追加しました。 UchuAdddonの公式ディスコ―ドサーバーが作成されました。バグ報告・提案等専用のサーバーです。（交流用のチャンネルなどはありません。）ゲーム内リンクからご参加ください！",
+          "en": "# Discord Server Now Open!<br>Added four links to the main menu: YouTube, Twitter, Wiki, and Discord. The official UchuAddon Discord server has been created. This is a dedicated server for bug reports and suggestions (there are no general chat channels). Please join via the in-game link!"
+        }
+      ]
+    },
       "version": "1.1.2",
       "date": "2026-05-29",
       "type": "hotfix",
