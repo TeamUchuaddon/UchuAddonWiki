@@ -2,6 +2,84 @@
   "_comment": "新しいバージョンは配列の先頭に追加。type: release/beta/hotfix/dev  使えるキー: new/change/fix/remove/caution  各項目は文字列または {ja, en} オブジェクトで記述。不要なキーは省略可",
   "versions": [
     {
+      "version": "1.1.7",
+      "date": "2026-06-06",
+      "type": "hotfix",
+       "change": [
+        {
+          "ja": "NiceDecoratorの使用回数表示のカラーを変更しました。",
+          "en": "Changed the color of NiceDecorator's use count display."
+        }
+      ],
+      "fix": [
+        {
+          "ja": "Horseが地中に潜っていてもスキンが表示されてしまう問題を修正しました。",
+          "en": "Fixed an issue where Horse's skin was still visible even while underground."
+        },
+        {
+          "ja": "欠落した翻訳を追加しました。",
+          "en": "Added missing translations."
+        }
+      ]
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-06-05",
+      "type": "hotfix",
+      "fix": [
+        {
+          "ja": "Bomberの非有効化爆弾が死後に消えない問題を修正しました。",
+          "en": "Fixed an issue where Bomber's inactive bombs did not disappear after death."
+        }
+      ]
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-06-05",
+      "type": "hotfix",
+       "change": [
+        {
+          "ja": "Triggerが解析したベントを誰かが使うと即座にフラッシュで通知を受け取るようにしました。",
+          "en": "Trigger now receives an immediate flash notification when an analyzed vent is used."
+        }
+      ],
+      "fix": [
+        {
+          "ja": "Horse Testament Forensicsが配役画面に表示されない問題を修正しました。",
+          "en": "Fixed an issue where Horse, Testament, and Forensics did not appear on the role assignment screen."
+        },
+        {
+          "ja": "Testamentを所持していても名前の横にマークが出ない問題を修正しました。",
+          "en": "Fixed an issue where the mark did not appear next to the name even when holding a Testament."
+        }
+      ]
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-06-04",
+      "type": "release",
+       "new": [
+        {
+          "ja": "Bomberを実装しました。",
+          "en": "Added Bomber."
+        },
+        {
+          "ja": "Acamateを実装しました。",
+          "en": "Added Acamate."
+        },
+        {
+          "ja": "Horseを実装しました。",
+          "en": "Added Horse."
+        }
+      ],
+      "fix": [
+        {
+          "ja": "Admiralで自身の追放を防げない問題を修正しました。",
+          "en": "Fixed an issue where Admiral could not prevent their own ejection."
+        }
+      ]
+    },
+    {
       "version": "1.1.3",
       "date": "2026-06-02",
       "type": "release",
