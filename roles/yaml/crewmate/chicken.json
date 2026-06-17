@@ -28,8 +28,8 @@
             "en": "Fragile Constitution"
         },
         "description": {
-            "ja": "様々な要因で簡単に死亡してしまいます。\nただし、試合終了まで生存するとクルーメイトが乗っ取り勝利します。\n\n死因一覧\n挟圧死　ドアミニゲームをする際に指を挟む\n転倒死　ベントの近くを通る\n錯乱死　停電が一定時間続く\n落下死　昇降機から落下する\n転落死　はしご・ジップラインから転落する\n恐怖死　投票を一定数入れられる",
-            "en": "Dies easily from various causes.\nHowever, if they survive until the end of the game, the Crewmates win by takeover.\n\nCauses of Death\nCrushing: Pinches fingers while playing the door minigame\nTripping: Passes near a vent\nPanic: Blackout continues for a certain time\nFalling: Falls off an elevator\nSlipping: Falls from a ladder or zipline\nFright: Receives a certain number of votes"
+            "ja": "様々な要因で簡単に死亡してしまいます。\nただし、試合終了まで生存するとクルーメイトが乗っ取り勝利します。\n\n死因一覧\n挟圧死　ドアミニゲームをする際に指を挟む\n転倒死　ベントの近くを通る\n錯乱死　停電が一定時間続く\n落下死　昇降機から落下する\n転落死　はしご・ジップラインから転落する",
+            "en": "Dies easily from various causes.\nHowever, if they survive until the end of the game, the Crewmates win by takeover.\n\nCauses of Death\nCrushing: Pinches fingers while playing the door minigame\nTripping: Passes near a vent\nPanic: Blackout continues for a certain time\nFalling: Falls off an elevator\nSlipping: Falls from a ladder or zipline"
         }
       }
     ],
@@ -88,12 +88,6 @@
             "description": {
                 "ja": "停電が何秒継続したら死亡するかを設定します。",
                 "en": "Sets how many seconds a blackout must last before death."
-            }
-        },
-        {
-            "name": {
-                "ja": "死亡する投票数",
-                "en": "Votes Required to Die"
             }
         }
     ],
